@@ -1,0 +1,108 @@
+*{font-family:font;}
+body{
+    background:url(./assets/poke.png) no-repeat center/cover;
+    
+}
+@font-face {
+    font-family:font;
+    src: url(./assets/LEMONMILK-RegularItalic.otf);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    height: 20px;
+    width: 80px;
+}
+.poke-text{
+    color:black;
+    font-family:font;
+}
+button{
+    background-color:black;
+    border-radius: 5px;
+    color: white;
+}
+img{
+    width:200px;
+    height: 200px;
+}
+.container{
+    padding: 10px;
+}
+.container-input{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    flex-direction: column;
+    gap: 5px;
+}
+#pokemon-container{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.993);
+    border-radius: 5px;
+    padding: 10px;
+}
+small{
+font-size: 10px;
+color: rgb(0, 0, 0);
+}
+#pizza-container2{
+    background: #70707059;
+    color: rgb(226, 226, 226);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px 30px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    gap:10px;
+}
+#form-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    font-size: 12px;
+}
+h3{
+    font-size: 12px;
+}
+.pizza-container-renders{
+    display: flex;
+    justify-content: center;
+}
+.pizza-error{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pizza-error-id{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
